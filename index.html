@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Divyansh Jha</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="container">
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Interests</a></li>
+          <li><a href="#portfolio">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="hero">
+      <div class="container">
+        <h1>Divyansh Jha</h1>
+        <p>Software Developer</p>
+        <a href="https://drive.google.com/file/d/1ip7bybtjVmARSKczwwCVm6A6PkpHH6gq/view?usp=drive_link" class="btn" target="_blank">My Resume</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="text-box">
+      <h2>About Me</h2>
+      <p>As a passionate and ambitious engineering student in my final year, specializing in software development,
+        I am excited to present my skills and experience in front-end development. With a strong foundation in
+        programming languages such as C/C++, Python, HTML, CSS, JavaScript, and SQL, I am well-equipped to
+        contribute to innovative and user-friendly web applications. Throughout my academic journey, I have
+        gained valuable expertise in software development tools such as Tanner EDA, PSpice, TCL. I have also
+        created IoT projects using Arduino</p>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="container">
+      <h2>My Interests</h2>
+      <div class="services-grid">
+        <div class="service">
+          <img src="responsive.png" alt="Computers">
+          <h3>Front End Web Development</h3>
+          <p></p>
+        </div>
+        <div class="service">
+          <img src="analytics.jpg" alt="Service 2">
+          <h3>Data Analysis</h3>
+          <p></p>
+        </div>
+        <div class="service">
+          <img src="ml.jpg" alt="Service 3">
+          <h3>Machine Learning</h3>
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="portfolio-grid">
+        <div class="item">
+          <h3>Smart Blind Stick</h3>
+          <div class="project-image">
+            <img src="pic7.jpg" alt="Project 1" height="250px" width="250px">
+          </div>
+          <div class="project-details">
+            <p>Created a smart blind stick for the visually impaired to assist them in mobility in their day-to-day lives. Used Arduino UNO and Arduino IDE for the project. </p>
+            <a href="https://github.com/Divyansh-Jha/Smart-Blind-Stick.git" class="btn" target="_blank">Link</a>
+          </div>
+        </div>
+        <div class="item">
+          <h3>Obstacle Avoiding Vacuum Cleaner</h3>
+          <div class="project-image">
+            <img src="pic8.jpg" alt="Project 2" height="250px" width="250px">
+          </div>
+          <div class="project-details">
+            <p>Created an obstacle avoiding vacuum cleaner using Arduino UNO which can be used for household tasks. </p>
+            <a href="https://github.com/Divyansh-Jha/Obstacle-Avoiding-Vacuum-Cleaner.git" class="btn" target="_blank">Link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form action="send_email.php" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+  
+
+  <footer>
+    <div class="container">
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/divyansh-jha-135296185/" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-linkedin fa-3x"></i>
+        </a>
+        <a href="https://twitter.com/itsdivyansh_jha" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-twitter fa-3x"></i>
+        </a>
+        <a href="https://github.com/Divyansh-Jha" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-github fa-3x"></i>
+        </a>
+      </div>
+      <p>&copy; 2023 Divyansh Jha. All rights reserved.</p>
+    </div>
+  </footer>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
